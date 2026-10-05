@@ -39,6 +39,8 @@ const projects = [
   },
 ]
 
+const portfolioLink = 'https://drive.google.com/drive/folders/1GNMaEM0BRtQZ9mkYimiCxGvNCp0W8n25?usp=sharing'
+
 const socials = [
   { label: 'Instagram', href: 'https://www.instagram.com/yashhkhope/', icon: Instagram },
   { label: 'Email', href: 'mailto:khopeyash830@gmail.com', icon: Mail },
@@ -126,7 +128,12 @@ function Projects() {
       <div className="section-heading projects-heading">
         <SectionLabel number="03">Selected visual studies</SectionLabel>
         <h2>Sound.<br /><em>Style. Motion.</em></h2>
-        <p>A growing collection of edits, visual experiments, and creative digital work.</p>
+        <div className="projects-intro">
+          <p>A growing collection of edits, visual experiments, and creative digital work.</p>
+          <a className="text-link portfolio-link" href={portfolioLink} target="_blank" rel="noreferrer">
+            View full video portfolio <ExternalLink size={15} />
+          </a>
+        </div>
       </div>
       <div className="projects-showcase">
         <BounceCards

@@ -50,7 +50,7 @@ h2 em { color: transparent; font-style: normal; -webkit-text-stroke: 1px var(--p
 .skill-list div { display: grid; grid-template-columns: 42px 1fr 34%; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
 .skill-list span { font: 10px 'DM Mono'; color: var(--red); }.skill-list strong { font-weight: 500; color: var(--paper); }.skill-list i { display: block; height: 5px; overflow: hidden; background: rgba(62,133,208,.18); }.skill-list b { display: block; height: 100%; background: linear-gradient(90deg, var(--red), var(--blue)); transform-origin: left; animation: load-skill .9s ease-out both; }
 @keyframes load-skill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-.projects { position: relative; }.projects-heading { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 24px; }.projects-heading .section-label { grid-column: 1/-1; }.projects-heading p { max-width: 260px; color: var(--muted); font-size: 13px; line-height: 1.7; margin: 0 0 8px; }
+.projects { position: relative; }.projects-heading { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 24px; }.projects-heading .section-label { grid-column: 1/-1; }.projects-intro { max-width: 260px; }.projects-heading p { color: var(--muted); font-size: 13px; line-height: 1.7; margin: 0 0 8px; }.portfolio-link { margin-top: 15px; font-size: 11px; }
 .projects-showcase { display: grid; grid-template-columns: minmax(420px, 1fr) minmax(280px, .8fr); gap: clamp(24px, 7vw, 100px); align-items: center; margin-top: 90px; }
 .projects-bounce-cards { max-width: 520px; margin: auto; }
 .project-list { display: grid; gap: 25px; }

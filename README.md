@@ -25,7 +25,7 @@ npm run build
 - `public/Profile.jpg` is the profile image.
 - `public/Yash_Resume.pdf` is the downloadable resume.
 
-The Selected Projects section links to two supplied Google Drive edits and the House of Creations website.
+The Selected Projects section links to two supplied Google Drive edits, the House of Creations website, and the full video portfolio folder on Google Drive.
 
 ## Deploy on Vercel
 
